@@ -1,0 +1,25 @@
+{
+  "name": "cloud-deploy-platform-app",
+  "version": "1.0.0",
+  "description": "API de ejemplo para proyecto Cloud Engineer",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js" 
+  },
+  "keywords": [
+   "node",
+   "express",
+   "aws",
+   "docker",
+   "terraform"
+  ],
+  "author": "Michael cano",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
