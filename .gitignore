@@ -3,4 +3,4 @@ node_modules/
 npm-debug.log
 *.log
 dist/
-build/.DS_Store
+.DS_Store
