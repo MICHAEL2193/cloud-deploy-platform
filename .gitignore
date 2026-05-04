@@ -4,3 +4,9 @@ npm-debug.log
 *.log
 dist/
 .DS_Store
+
+# Terraform local files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
