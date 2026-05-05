@@ -1,6 +1,6 @@
 # Cloud Deploy Platform
 
-Proyecto de portafolio orientado a **Cloud / DevOps / Infrastructure**, en el que desarrollo una aplicación sencilla con **Node.js + Express**, la contenedorizo con **Docker**, la publico detrás de **Nginx** como *reverse proxy* y automatizo su despliegue en **AWS** usando **Terraform** y **user_data**.
+Proyecto de portafolio orientado a **Cloud / DevOps / Infrastructure**, en el que desarrollo una aplicación con **Node.js + Express**, la contenedorizo con **Docker**, la publico detrás de **Nginx** como *reverse proxy* y automatizo su despliegue en **AWS** usando **Terraform** y **user_data**.
 
 ## Resumen rápido
 
