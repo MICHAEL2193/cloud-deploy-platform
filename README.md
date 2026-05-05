@@ -2,6 +2,12 @@
 
 Proyecto de portafolio orientado a **Cloud / DevOps / Infrastructure**, en el que desarrollo una aplicación con **Node.js + Express**, la contenedorizo con **Docker**, la publico detrás de **Nginx** como *reverse proxy* y automatizo su despliegue en **AWS** usando **Terraform** y **user_data**.
 
+
+### Arquitectura del proyecto
+
+![App running in local](infra.png)
+
+
 ## Resumen rápido
 
 Este proyecto demuestra que soy capaz de:
