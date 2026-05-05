@@ -1,15 +1,13 @@
 #!/bin/bash
-set -euxo pipefail
-
-exec > >(tee -a /var/log/user-data.log | logger -t user-data -s 2>/dev/console) 2>&1
+set -eux
 
 REPO_URL="https://github.com/MICHAEL2193/cloud-deploy-platform.git"
 APP_DIR="/home/ec2-user/cloud-deploy-platform"
-COMPOSE_VERSION="v2.39.2"
+COMPOSE_VERSION="v5.1.2"
 BUILDX_VERSION="v0.33.0"
 
 dnf update -y
-dnf install -y docker git curl
+dnf install -y docker git 
 
 systemctl enable docker
 systemctl start docker
@@ -44,11 +42,11 @@ cd "$APP_DIR"
 docker compose down --remove-orphans || true
 docker compose up -d --build
 
-for i in {1..30}; do
+for i in $(seq 1 30); do
   if curl -fsS http://localhost/health; then
-    echo
-    echo "Application is healthy."
-    break
+    exit 0
   fi
   sleep 5
 done
+
+exit 1

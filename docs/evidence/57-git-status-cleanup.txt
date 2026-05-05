@@ -1,0 +1,46 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    docs/evidence/curl_POST_task.png
+	deleted:    docs/evidence/curl_health.png
+	deleted:    docs/evidence/curl_task.png
+	deleted:    docs/evidence/npm_run_dev.png
+	deleted:    infra/terraform/aws/README.md
+	deleted:    infra/terraform/aws/THIRD_PARTY_LICENSES
+	deleted:    infra/terraform/aws/install
+	deleted:    infra/terraform/awscliv2.zip
+	deleted:    infra/terraform/tee
+	deleted:    infra/terraform/tfplan
+	modified:   infra/terraform/user_data.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	docs/evidence/40-terraform-plan.png
+	docs/evidence/40-terraform-plan.txt
+	docs/evidence/41-terraform-plan-out.png
+	docs/evidence/41-terraform-plan-out.txt
+	docs/evidence/42-terraform-apply.png
+	docs/evidence/42-terraform-apply.txt
+	docs/evidence/43-terraform-output.png
+	docs/evidence/43-terraform-output.txt
+	docs/evidence/44-terraform-state-list.png
+	docs/evidence/44-terraform-state-list.txt
+	docs/evidence/45-terraform-ec2-running.png
+	docs/evidence/45-terraform-ec2-running.txt
+	docs/evidence/46-terraform-ec2-ssm.png
+	docs/evidence/46-terraform-ec2-ssm.txt
+	docs/evidence/47-terraform-ec2-session-manager.png
+	docs/evidence/49-terraform-ec2-docker-git-installed.png
+	docs/evidence/50-terraform-ec2-docker-service-running.png
+	docs/evidence/51-terraform-infra-automat.txt
+	docs/evidence/52-terraform-userdata-local-health.png
+	docs/evidence/53-terraform-userdata-public-health.png
+	docs/evidence/53-terraform-userdata-public-health.txt
+	docs/evidence/54-terraform-userdata-project-tree.png
+	docs/evidence/55-terraform-userdata-docker-ps.png
+	docs/evidence/56-terraform-userdata-cloud-init.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
