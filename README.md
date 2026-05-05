@@ -6,7 +6,7 @@ Proyecto de portafolio orientado a **Cloud / DevOps / Infrastructure**, en el qu
 
 Este proyecto demuestra que soy capaz de:
 
-- desarrollar una API básica con **Node.js + Express**
+- desarrollar una API con **Node.js + Express**
 - contenedizar una aplicación con **Docker**
 - usar **Nginx** como *reverse proxy*
 - desplegar una aplicación en **AWS EC2**
