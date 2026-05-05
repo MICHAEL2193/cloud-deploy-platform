@@ -5,7 +5,7 @@ Proyecto de portafolio orientado a **Cloud / DevOps / Infrastructure**, en el qu
 
 ### Arquitectura del proyecto
 
-![App running in local](infra.png)
+![App running in local](docs/evidence/Architecture.png.png)
 
 
 ## Resumen rápido
