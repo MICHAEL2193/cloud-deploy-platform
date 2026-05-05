@@ -10,3 +10,11 @@ dist/
 *.tfstate
 *.tfstate.*
 crash.log
+
+#AWS
+infra/terraform/aws/
+infra/terraform/awscliv2.zip
+
+# Terraform local plan files
+infra/terraform/tfplan
+*.tfplan
